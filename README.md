@@ -2,8 +2,8 @@
 ## Exo-drill-one
 ##language used
 
--HTML
--CSS
+- HTML
+- CSS
 
 ## link to my project
 
