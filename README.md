@@ -7,7 +7,7 @@
 
 ## link to my project
 
-![my-link](https://chardonfrancois.github.io/exo-drill-weap/)
+[my-link](https://chardonfrancois.github.io/exo-drill-weap/)
 
 ### picture
 
