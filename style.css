@@ -1,0 +1,74 @@
+*,::before,::after{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: auto;
+    height: 100%;
+    background-color: black;
+}
+.container#one, .container#two, .container#three{
+    width: 400px;
+    padding: 30px;
+    border: solid 7px white;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+    color:white;
+}
+.container#two, .container#three {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    transition-property: bg-color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 3s;
+   
+    }
+
+.container:hover{
+    background-color: white;
+    color: black;
+}
+.container#three:hover{
+    animation: droite 1s;
+    color: black;
+}
+@keyframes droite {
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(100px);
+    }
+}
+
+.container#two:hover{
+    animation : agrandir 1s;
+    color: black;
+}
+@keyframes agrandir {
+    0%{
+        transform: scaleY(1);
+    }
+    100%{
+        transform: scaleY(2);
+    }
+}
+.container#one:hover{
+    animation: width 1S;
+    color: black;
+}
+@keyframes width {
+    0%{
+        background: black;
+        color: white;
+    }
+    100%{
+        background: white;
+        color: black;
+    }
+}
